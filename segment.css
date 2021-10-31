@@ -1,0 +1,60 @@
+/*
+	demo (it can be removed)
+*/
+body {
+	background: #242424;
+	color: #fff;
+}
+
+/*
+	Seven Segmented Display
+	Ash Craig - ashcraig.com
+
+	This is a simple approach
+	to building a segmented
+	display without complicated
+	canvas routines or font flicker
+*/
+.svn-segment-container {
+    position: relative;
+}
+.svn-segment-top {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.svn-segment-bk {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+/* EDIT THESE SETTINGS ******************
+
+this is the display font color */
+.svn-segment-top path {
+	fill: #8d8d8d;
+}
+/* this is the off segment bk color */
+.svn-segment-bk path {
+	fill: #ababab1f;
+}
+/* width for the full sized segment */
+.svn-segment {
+    display: inline-block;
+    margin: 0 7px 0 0;
+    width: 30px;
+}
+/* 	this is the half segment size... this should
+	be half the width of the full sized segment
+
+	e.g. full: 50px half: 25px
+*/
+.svn-segment-half {
+	display: inline-block;
+	margin: 0 3px 0 -3px;
+    width: 15px;
+}
