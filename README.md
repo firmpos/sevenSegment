@@ -3,6 +3,8 @@ A simple approach to building a seven segmented display without complicated canv
 
 This code is a quick and dirty class I built to solve a problem in one of my own apps. I thought it might help someone else :-)
 
+![Seven Segment Display with js and css](https://github.com/firmpos/sevenSegment/blob/main/display_example.gif)
+
 ## Useage
 Reference `segment.css` and `segment.js` in your html. See the demo for example code.
 
